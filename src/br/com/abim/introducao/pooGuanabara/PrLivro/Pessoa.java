@@ -1,4 +1,4 @@
-package br.com.abim.introducao.pooGuanabara;
+package br.com.abim.introducao.pooGuanabara.PrLivro;
 
 public class Pessoa {
     // Atributos

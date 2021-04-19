@@ -1,4 +1,4 @@
-package br.com.abim.introducao.pooGuanabara;
+package br.com.abim.introducao.pooGuanabara.PrLivro;
 
 public class Livro implements Publicacao {
 
@@ -9,6 +9,9 @@ public class Livro implements Publicacao {
     private int paginaAtual;
     private boolean aberto;
     private String leitor;
+
+    public Livro(String aprendendo_java, String josé_da_silva, int i, Pessoa pessoa) {
+    }
 
     // Métodos
     public String detalhes() {
