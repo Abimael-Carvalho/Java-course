@@ -13,6 +13,7 @@ public class ProjetoLivro {
         l[2] = new Livro("Java Avancçado","Jandira", 800,p[0]);
 
         System.out.println(l[0].detalhes());
+        System.out.println(l[1].detalhes());
 
     }
 }
