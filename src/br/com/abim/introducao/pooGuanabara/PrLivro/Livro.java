@@ -11,6 +11,9 @@ public class Livro implements Publicacao {
     private String leitor;
 
     public Livro(String aprendendo_java, String josé_da_silva, int i, Pessoa pessoa) {
+        this.titulo = getTitulo();
+        this.autor = getAutor();
+        this.totalPaginas = getTotalPaginas();
     }
 
     // Métodos
